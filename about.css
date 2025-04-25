@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Açık mavi tonlar */
+    color: #333;
+}
+
+header {
+    background-color: #007acc; /* Parlak mavi */
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a.active {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+}
+
+.about-us, .team, .contact {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.about-us h2, .team h2, .contact h2 {
+    color: #007acc; /* Mavi başlıklar */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+a {
+    color: #005fa3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #007acc;
+    color: #fff;
+    margin-top: 2rem;
+}

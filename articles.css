@@ -1,0 +1,109 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Açık mavi arka plan */
+    color: #333;
+}
+
+header {
+    background-color: #007acc; /* Parlak mavi */
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a.active {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+}
+
+.upload-section, .articles-list {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.upload-section h2, .articles-list h2 {
+    color: #007acc; /* Mavi başlıklar */
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #007acc;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #005fa3;
+}
+
+.articles-list .article {
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1rem;
+}
+
+.articles-list .article h3 {
+    color: #007acc;
+}
+
+.articles-list .article a {
+    color: #005fa3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.articles-list .article a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #007acc;
+    color: #fff;
+    margin-top: 2rem;
+}

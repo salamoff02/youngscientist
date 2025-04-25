@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makaleler</title>
+    <link rel="stylesheet" href="articles.css">
+</head>
+<body>
+    <header>
+        <h1>Makaleler</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="magazines.html" class="active">Makaleler</a></li>
+                <li><a href="about.html">Biz Hakkında</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="upload-section">
+            <h2>Yeni Makale Yükle</h2>
+            <form action="/upload" method="post" enctype="multipart/form-data">
+                <label for="title">Başlık:</label>
+                <input type="text" id="title" name="title" required>
+                
+                <label for="file">Dosya Seç:</label>
+                <input type="file" id="file" name="file" required>
+                
+                <button type="submit">Yükle</button>
+            </form>
+        </section>
+        <section class="articles-list">
+            <h2>Mevcut Makaleler</h2>
+            <div class="article">
+                <h3>Makale Başlığı 1</h3>
+                <p>Bu makalenin kısa açıklaması burada olacak.</p>
+                <a href="#">Devamını Oku</a>
+            </div>
+            <div class="article">
+                <h3>Makale Başlığı 2</h3>
+                <p>Bu makalenin kısa açıklaması burada olacak.</p>
+                <a href="#">Devamını Oku</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 - Web Siteniz</p>
+    </footer>
+</body>
+</html>
